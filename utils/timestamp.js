@@ -5,7 +5,7 @@ function parseDate(val) {
   return val;
 }
 
-function getTimestamp() {
+export default function getTimestamp() {
   const dateString = new Date().toLocaleString("en-us", {
     timeZone: "Africa/Nairobi",
   });
